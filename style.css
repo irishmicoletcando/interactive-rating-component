@@ -27,11 +27,11 @@ body {
 }
 
 /* rating state start */
-.rating-state-container {
+.rating-state-container, .thank-you-state-container {
   background-color: var(--dark-blue);
-  color: white;
   padding: 1.5em;
   border-radius: 1.5em;
+  height: max-content;
 }
 
 .star-icon-container {
@@ -49,6 +49,7 @@ body {
 h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5em;
+  color: var(--white);
 }
 
 .rating-state-container p {
@@ -79,6 +80,11 @@ h1 {
   color: var(--white);
 }
 
+.rating-btn-selected {
+  background-color: var(--medium-grey);
+  color: var(--white);
+}
+
 .submit-btn {
   background-color: var(--orange);
   color: var(--white);
@@ -99,9 +105,39 @@ h1 {
 }
 /* rating state end */
 
+/* thank you state start */
 .thank-you-state-container {
   display: none;
 }
+
+.thank-you-state-container img {
+  display: block;
+  margin: 0 auto 1.5em;
+}
+
+.thank-you-state-container .selected-rating {
+  background-color: var(--medium-grey-with-opacity);
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  text-align: center;
+  width: max-content;
+  display: block;
+  margin: 0 auto 2em;
+  color: var(--orange);
+}
+
+h2 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 0.75em;
+}
+
+.thank-you-state-container p {
+  color: var(--medium-grey);
+  text-align: center;
+}
+
+/* thank you state end */
 
 footer { 
   margin-top: 1em;
