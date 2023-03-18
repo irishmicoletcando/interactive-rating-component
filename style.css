@@ -32,6 +32,8 @@ body {
   padding: 1.5em;
   border-radius: 1.5em;
   height: max-content;
+  margin: 0 auto;
+  width: 400px;
 }
 
 .star-icon-container {
