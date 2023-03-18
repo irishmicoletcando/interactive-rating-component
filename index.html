@@ -10,11 +10,11 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <header>
-      <img src="./images/icon-star.svg" alt="Star Icon">
-    </header>
     <main>
       <div class="rating-state-container">
+        <div class="star-icon-container">
+          <img class="star-icon" src="./images/icon-star.svg" alt="Star Icon">
+        </div>
         <h1>How did we do?</h1>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         <div class="rating-btns-container">
@@ -24,13 +24,13 @@
           <div class="rating-btns">4</div>
           <div class="rating-btns">5</div>
         </div>
-        <button>Submit</button>
+        <button id="submit-btn" class="submit-btn">Submit</button>
       </div>
       <!-- Rating state end -->
     </main>
 
     <!-- Thank you state start -->
-    <div id="thank-you-state-container">
+    <div id="thank-you-state-container" class="thank-you-state-container">
       <img src="./images/illustration-thank-you.svg" alt="Thank you illustration">
       <p>You selected <span id="rating"><!-- Add rating here --></span> out of 5</p>
       <h2>Thank you!</h2>
