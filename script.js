@@ -20,3 +20,9 @@ ratingButtons.forEach(ratingButton => {
     selectedRating = Number(ratingButton.textContent);
   })
 })
+
+submitButton.addEventListener("click", function() {
+  ratingStateDiv.style.display = "none";
+  thankYouStateDiv.style.display = "block";
+  rating.textContent = selectedRating;
+})
