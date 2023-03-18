@@ -33,7 +33,7 @@ body {
   border-radius: 1.5em;
   height: max-content;
   margin: 0 auto;
-  width: 400px;
+  width: 85vw;
 }
 
 .star-icon-container {
@@ -151,4 +151,10 @@ footer {
 footer a { 
   color: var(--light-grey); 
   font-weight: 700;
+}
+
+@media (min-width: 500px) {
+  .rating-state-container, .thank-you-state-container {
+    width: 400px;
+  }
 }
